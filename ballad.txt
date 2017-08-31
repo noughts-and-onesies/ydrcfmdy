@@ -1,0 +1,7 @@
+X:1
+T: Soulwax "Ballad To Forget"
+M: 3/4
+L: 1/4
+K: C
+|: "C" [C3E3G3] | "Em" [E3G3A3] | "E" [E3^G3A3] | "F" [F3A3B3] :|
+|: "C" Z | "Em" Z | "E" Z | "F" Z :|
