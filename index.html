@@ -1,5 +1,7 @@
 <script src="abcjs_basic_midi_3.1.3-min.js"></script>
+
 <div id="notation"></div>
+<div id="midi" class="abc-midi"></div>
 
 <script>
 onload = function() {
@@ -11,8 +13,13 @@ onload = function() {
   client.onreadystatechange = function() {
 
     // Check response is a good one
-    if (this.readyState === 4 && this.status === 200)
-      ABCJS.renderAbc("notation", client.responseText);
+    if (this.readyState === 4 && this.status === 200) {
+
+      const song = client.responseText;
+
+      ABCJS.renderAbc("notation", song);
+      // ABCJS.renderMidi("midi", song);
+    }
   }
 
   // Request the file
