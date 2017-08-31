@@ -1,29 +1,30 @@
 <script src="abcjs_basic_midi_3.1.3-min.js"></script>
-
 <div id="notation"></div>
 <div id="midi" class="abc-midi"></div>
 
-<script>
-onload = function() {
+  <div id="songs/ballad.abc"></div>
+  <script>
+      song=`
+X:1
+T: Soulwax "Ballad To Forget"
+M: 3/4
+L: 1/4
+K: C
+|: "C" [C3E3G3] | "Em" [E3G3A3] | "E" [E3^G3A3] | "F" [F3A3B3] :|
+|: "C" Z | "Em" Z | "E" Z | "F" Z :|
+`;
+      ABCJS.renderAbc("songs/ballad.abc", song);
+  </script>
 
-  // Create a new AJAX request
-  var client = new XMLHttpRequest();
-
-  // Set up handler for AJAX response
-  client.onreadystatechange = function() {
-
-    // Check response is a good one
-    if (this.readyState === 4 && this.status === 200) {
-
-      const song = client.responseText;
-
-      ABCJS.renderAbc("notation", song);
-      // ABCJS.renderMidi("midi", song);
-    }
-  }
-
-  // Request the file
-  client.open("GET", "ballad.txt");
-  client.send();
-}
-</script>
+  <div id="songs/halallujah.abc"></div>
+  <script>
+      song=`
+X:1
+T: "Hallelujah"
+M: 3/4
+L: 1/4
+K: C
+|: "C" Z | "Am" Z | "C" Z | "Am" Z :|
+`;
+      ABCJS.renderAbc("songs/halallujah.abc", song);
+  </script>
