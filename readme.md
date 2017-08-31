@@ -14,7 +14,8 @@ $ make
 bin/generate_index.sh > index.html
 ```
 
-To create a rough outline of a song
+To create a rough outline of a song run the script with a list of chords. It
+will generate the ABC file with an empty bar for each of the named chords.
 ```bash
 $ bin/create_song_outline.sh C Am C Am F G C G > songs/halallujah.abc
 $ make
