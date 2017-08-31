@@ -2,6 +2,19 @@
 <div id="notation"></div>
 <div id="midi" class="abc-midi"></div>
 
+  <div id="songs/andro_queen.abc"></div>
+  <script>
+      song=`
+X:1
+T: Pixies "Andro Queen"
+M: 4/4
+L: 1/4
+K: C
+| "F" Z | "F" Z | "B" Z | "A#" Z | "F" Z | "F" Z | "B" Z | "A#" Z | "F" Z | "C" Z | "Dm" Z | "A#" Z | "F" Z | "C" Z | "F" Z | "F" Z |
+`;
+      ABCJS.renderAbc("songs/andro_queen.abc", song);
+  </script>
+
   <div id="songs/ballad.abc"></div>
   <script>
       song=`
@@ -16,28 +29,57 @@ K: C
       ABCJS.renderAbc("songs/ballad.abc", song);
   </script>
 
-  <div id="songs/example.abc"></div>
+  <div id="songs/drew.abc"></div>
   <script>
       song=`
 X:1
-T: "Song title"
+T: Goldfrapp "Drew"
 M: 4/4
 L: 1/4
 K: C
-| "A" Z | "B" Z | "C" Z | "D" Z |
+| "Em" Z | "D" Z | "C" Z | "E" Z |
 `;
-      ABCJS.renderAbc("songs/example.abc", song);
+      ABCJS.renderAbc("songs/drew.abc", song);
   </script>
 
   <div id="songs/halallujah.abc"></div>
   <script>
       song=`
 X:1
-T: "Hallelujah"
+T: "Halellujah"
 M: 3/4
 L: 1/4
 K: C
-|: "C" Z | "Am" Z | "C" Z | "Am" Z :|
+| "C" Z | "Am" Z | "C" Z | "Am" Z | "F" Z | "G" Z | "C" Z | "G" Z |
 `;
       ABCJS.renderAbc("songs/halallujah.abc", song);
+  </script>
+
+  <div id="songs/here_comes_the_sun.abc"></div>
+  <script>
+      song=`
+X:1
+T: The Beatles "Here Comes The Sun"
+M: 4/4
+L: 1/4
+K: C
+| "G" Z | "G" Z | "C" Z | "D7" Z | "G" Z | "G" Z | "C" Z | "A7" Z |
+`;
+      ABCJS.renderAbc("songs/here_comes_the_sun.abc", song);
+  </script>
+
+  <div id="songs/not_the_only_one.abc"></div>
+  <script>
+      song=`
+X:1
+T: Sam Smith "Not The Only One"
+M: 4/4
+L: 1/4
+K: C
+| "F" Z | "A" Z | "Dm" Z | "Bb7" Z |
+| "F" Z | "A" Z | "F" Z | "Dm" Z |
+| "F" Z | "A" Z | "Dm" Z | "C" Z |
+| "Dm" Z | "F" Z | "C" Z |
+`;
+      ABCJS.renderAbc("songs/not_the_only_one.abc", song);
   </script>

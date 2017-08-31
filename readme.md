@@ -13,3 +13,9 @@ $ cd bistroboys
 $ make
 bin/generate_index.sh > index.html
 ```
+
+To create a rough outline of a song
+```bash
+$ bin/create_song_outline.sh C Am C Am F G C G > songs/halallujah.abc
+$ make
+```
