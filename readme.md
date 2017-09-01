@@ -25,4 +25,5 @@ $ make
 ```
 
 # Referenes
+* http://abcnotation.com/wiki/abc:standard:v2.1
 * http://www.lesession.co.uk/abc/abc_notation.htm
