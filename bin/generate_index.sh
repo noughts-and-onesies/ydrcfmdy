@@ -1,25 +1,26 @@
 #!/bin/bash
 
-cat <<HEADER
-<script src="abcjs_basic_midi_3.1.3-min.js"></script>
-<script>
-// Periodically check reload checkbox state
-setInterval(function() {
-            if (window.location.href.split("?").pop() === "reload")
-            window.location.reload();
-            }, 2000);
-</script>
-<div id="notation"></div>
-<div id="midi" class="abc-midi"></div>
-HEADER
+readonly root=docs
 
-for song in songs/*.abc; do
+for song in $root/*.abc; do
 
   abc=$(cat $song)
 
-cat <<-SONG
+cat <<-HEADER
+  <script src="abcjs_basic_midi_3.1.3-min.js"></script>
+  <script>
+  // Periodically check reload checkbox state
+  setInterval(function() {
+              if (window.location.href.split("?").pop() === "reload")
+              window.location.reload();
+              }, 2000);
+  </script>
+  <div id="notation"></div>
+  <div id="midi" class="abc-midi"></div>
+HEADER
 
-  <div id="$song"></div>
+cat <<-SONG
+  <div id="notation"></div>
   <script>
       song=\`
 $abc
