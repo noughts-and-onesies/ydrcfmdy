@@ -4,7 +4,8 @@
 
 cat <<HEADER
 X:1
-T: "Song title"
+C: Composer
+T: Title
 M: 4/4
 L: 1/4
 K: C
