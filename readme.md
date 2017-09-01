@@ -1,5 +1,6 @@
 Songs to learn for the band, songs I've written and some general learning about
-music notation.
+music notation. See the [rendered
+version](https://deanturpin.github.io/ydrcfmdy/).
 
 ```index.html``` is statically generated. The songs are stored in ABC format in
 the songs directory. When a song is updated, run make to regenerate the HTML
