@@ -1,6 +1,6 @@
 songs := $(wildcard songs/*.abc)
 
-index.html: $(songs)
+doc/index.html: $(songs)
 	bin/generate_index.sh > $@
 
 wait:
