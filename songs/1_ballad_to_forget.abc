@@ -6,6 +6,6 @@ L: 1/8
 Z: Dean Turpin 2017
 T: 1/3=55
 K: C
-"C" [C3ceg] [eg]cC | "Em" [E3egb] [gb]eE | "E" [E3egb] e[^gb]E | "F" [F3fac] f[ac']F |
+"C" [C3ceg] [eg]cC | "Em" [E3egb] [gb]eE | "E" [E3egb] e[^gb]E | "F" [F3fac'] f[ac']F |
 | "^G" Z | "G" Z | "F" [F4acf] ^ab |
 | "C" C3 [eg] c2 | "Em" E3 [gb] e2 | "E" E3 [^gb] e2 | "^A" Z
