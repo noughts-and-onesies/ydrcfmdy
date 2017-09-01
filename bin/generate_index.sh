@@ -1,19 +1,28 @@
 #!/bin/bash
 
 readonly root=docs
+index=$root/index.html
+echo "<h1>Songs</h1>" > $index
 
 for song in $root/*.abc; do
 
-html_file=${song%%.abc}.html
+# HTML for this song
+html=${song%%.abc}.html
 
-cat <<-HEADER > $html_file
+page=${html##*/}
+pretty_name=${page%%.*}
+pretty_name=${pretty_name//_/ }
+echo "<a href='$page'>$pretty_name</a><br>" >> $index
+
+cat <<-HEADER > $html
 <script src="abcjs_basic_midi_3.1.3-min.js"></script>
 
+<a href="/">Home</a>
 <div id="score"></div>
 
 HEADER
 
-cat <<-SONG >> $html_file
+cat <<-SONG >> $html
 <script>
 onload = function() {
 
