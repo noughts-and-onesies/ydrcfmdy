@@ -17,6 +17,8 @@ C: Soulwax
 T: "Ballad To Forget"
 M: 3/4
 L: 1/8
+Z: Dean Turpin 2017
+T: 1/3=120
 K: C
 | "C" C3 [eg] c2 | "Em" E3 [gb] e2 | "E" E3 e [^gb] e | "F" F3 f [ac] f |
 | "C" C3 [eg] c2 | "Em" E3 [gb] e2 | "E" E3 [^gb] e2 | "F" F3 [ac] f2 |
@@ -78,7 +80,7 @@ T: Hallelujah
 M: 3/4
 L: 1/4
 K: C
-| "C" Z | "Am" Z | "C" Z | "Am" Z | "F" Z | "G" Z | "C" Z | "G" Z |
+[|:2 "C" Z | "Am" Z | "C" Z | "Am" Z | "F" Z | "G" Z | "C" Z | "G" Z :|]
 `;
       ABCJS.renderAbc("songs/hallelujah.abc", song);
   </script>
@@ -92,7 +94,7 @@ C: The Beatles
 M: 4/4
 L: 1/4
 K: G
-|: "G" Z | "G" Z | "C" Z |1 "D7" Z :|2 "A7" Z |]
+|:3 "G" Z | "G" Z | "C" Z |1 "D7" Z :|2 "A7" Z |]
 `;
       ABCJS.renderAbc("songs/here_comes_the_sun.abc", song);
   </script>
@@ -105,11 +107,11 @@ C: All Saints
 T: Never Ever
 M: 4/4
 L: 1/4
-K: ^C
-|: "C" Z | "C7" Z | "F" Z | "C" Z |
+K: C#
+[| "C" Z | "C7" Z | "F" Z | "C" Z |
 | "C" Z | "C7" Z | "G" Z | "G" Z |
 | "C" Z | "C7" Z | "F" Z | "C" Z |
-| "C" Z | "G" Z | "F" Z | "C" Z :|
+| "C" Z | "G" Z | "F" Z | "C" Z |]
 `;
       ABCJS.renderAbc("songs/never_ever.abc", song);
   </script>
