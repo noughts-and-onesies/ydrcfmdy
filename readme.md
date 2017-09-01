@@ -18,3 +18,5 @@ will generate the ABC file with an empty bar for each of the named chords.
 $ bin/create_song_outline.sh C Am C Am F G C G > songs/halallujah.abc
 $ make
 ```
+# Referenes
+* http://www.lesession.co.uk/abc/abc_notation.htm
