@@ -1,4 +1,4 @@
-songs := $(wildcard songs/*.abc)
+songs := $(wildcard docs/*.abc)
 
 docs/index.html: $(songs)
 	bin/generate_index.sh
