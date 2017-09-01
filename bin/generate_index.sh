@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cat <<HEADER
-<script src="js/abcjs_basic_midi_3.1.3-min.js"></script>
+<script src="abcjs_basic_midi_3.1.3-min.js"></script>
 <script>
 // Periodically check reload checkbox state
 setInterval(function() {
