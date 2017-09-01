@@ -1,6 +1,7 @@
 X:1
-T: The Beatles "Here Comes The Sun"
+T: Here Comes The Sun
+C: The Beatles
 M: 4/4
 L: 1/4
 K: G
-| "G" Z | "G" Z | "C" Z | "D7" Z | "G" Z | "G" Z | "C" Z | "A7" Z |
+|: "G" Z | "G" Z | "C" Z |1 "D7" :|2 "A7" Z :|
