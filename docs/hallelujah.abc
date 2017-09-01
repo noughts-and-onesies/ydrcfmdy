@@ -1,8 +1,12 @@
 X: 1
 C: Leonard Cohen
 T: Hallelujah
-M: 6/4
+M: 6/8
 L: 1/8
 K: C
-[|: "C" 3ccc 3ccc | "Am" 3aaa 3aaa | "C" 3CCC 3CCC | "Am" 3AAA 3AAA |
-| "F" Z | "G" Z | "C" Z | "G" Z :|]
+"C - Intro" 3[Ce]Gc 3gec | "Am" 3[Ae]Ec 3aec | "C" 3[Ce]Gc 3gec | "Am" 3[Ae]Ec 3aec
+[|"C - Verse" 3[Ce]Gc 3gec | "Am" 3[Ae]Ec 3aec | "C" 3[Ce]Gc 3gec | "Am" 3[Ae]Ec 3aec
+"F" Z | "G" Z | "C" Z | "G" Z |]
+[|"C - Bridge" Z | "F" Z/ "G" Z/ | "Am" Z | "F" Z
+"G" Z | "Em" Z | "Am" Z |]
+[| "F - Chorus" Z2 | "Am" Z2 | "F" Z2 | "Am" Z | "G" Z | "C" Z | "G" Z |]

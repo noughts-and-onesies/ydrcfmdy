@@ -1,19 +1,7 @@
-#!/bin/bash
-
-readonly root=docs
-
-for song in $root/*.abc; do
-
-html_file=${song%%.abc}.html
-
-cat <<-HEADER > $html_file
 <script src="abcjs_basic_midi_3.1.3-min.js"></script>
 
 <div id="score"></div>
 
-HEADER
-
-cat <<-SONG >> $html_file
 <script>
 onload = function() {
 
@@ -25,10 +13,7 @@ onload = function() {
       ABCJS.renderAbc("score", client.responseText);
   }
 
-  client.open("GET", "${song#*/}");
+  client.open("GET", "1_ballad_to_forget.abc");
   client.send();
 }
 </script>
-SONG
-
-done
