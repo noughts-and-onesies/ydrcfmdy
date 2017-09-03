@@ -17,7 +17,7 @@ echo "<a href='$page'>$pretty_name</a><br>" >> $index
 cat <<-HEADER > $html
 <script src="abcjs_basic_midi_3.1.3-min.js"></script>
 
-<a href="/">Home</a>
+<a href="/ydrcfmdy/">Home</a>
 <div id="score"></div>
 
 HEADER
