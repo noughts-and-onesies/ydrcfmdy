@@ -1,7 +1,7 @@
 #!/bin/bash
 
 readonly root=docs
-index=$root/index.html
+index=$root/readme.md
 echo "<h1>Songs</h1>" > $index
 
 for song in $root/*.abc; do
