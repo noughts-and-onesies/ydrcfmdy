@@ -40,4 +40,6 @@ onload = function() {
 </script>
 SONG
 
+echo Writing to $html
+
 done

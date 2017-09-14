@@ -4,6 +4,7 @@
 <a href='ballad_to_forget.html'>ballad to forget</a><br>
 <a href='drew.html'>drew</a><br>
 <a href='every_day_is_exactly_the_same.html'>every day is exactly the same</a><br>
+<a href='forgiving.html'>forgiving</a><br>
 <a href='for_no_one.html'>for no one</a><br>
 <a href='hallelujah.html'>hallelujah</a><br>
 <a href='here_comes_the_sun.html'>here comes the sun</a><br>
