@@ -3,7 +3,7 @@ C: Muse
 T: Unintended
 Z: Dean Turpin 2017
 M: 4/4
-L: 1/4
-K: C
-"E" Z | "E" Z | "B" Z | "B" Z
-|: "E" Z | "Am" Z | "D" Z | "G" Z | "C" Z | "B" Z | "E" Z | "E" Z :|
+L: 4/4
+K: E
+"E" [EGB] | "E" [EGB] | "B" [B,DF] | "B" [B,DF]
+|: "E" [EGB] | "Am" [A=ce] | "D" [DFA] | "G" [GBd] | "C" [CEG] | "B" [B,DF] | "E" [EGB] :|
