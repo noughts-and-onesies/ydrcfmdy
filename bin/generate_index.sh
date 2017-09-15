@@ -2,7 +2,6 @@
 
 readonly root=docs
 index=$root/readme.md
-echo "<h1>Songs</h1>" > $index
 
 for song in $root/*.abc; do
 
